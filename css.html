@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>meetjob123</title>
+    <style>
+        * {color: aqua;}/*通用選擇器*/
+        .123 {}
+        .j3206 { color: rgba(0, 255, 72, 0.728);}
+        #lastest {color: brown;}
+        h1,h2,h3,h4,h5,h6{
+            font-family: 'Noto Sana TC', sans-serif;  /*群組選擇器*/
+            color: rgb(67, 182, 14);
+        }
+        p,a,span,li,label{
+            font-family: 'Open Sans', sans-serif;
+            color: brown;
+        }
+
+        div {color: black;}
+        div[title] {color: red;}
+        div[title=fishbecat] {color: green;}
+        div[title~=fishbecat’s] {color: green;}
+
+        a{ color: aquamarine;}
+        h1 a {color: bisque;}/*子母選擇器*/
+        #warapper a {color: beige;}
+
+        h1 {color: blueviolet;}/*同層相鄰選擇器*/
+        h1 + p{color: blanchedalmond;} 
+
+        article > p{color: blue;}
+        .mary > p{color: blue;}
+        #wa > p{color: blue;}
+
+       /*字體設定*/ 
+        p{color:rgba(252,186,3,0.8);
+            font-size:40px;
+            letter-spacing: 10px;
+            line-height: 1.5;
+            font-weight: 500;
+            text-align:right;/*left ,center*/
+            font-family: '標楷體', sans-serif;
+           }
+           div {
+            font-family:Arial,'Times New Roman','Microsoft YaHei'; font:bold 12px/0.75em Arial,'Times New Roman','Microsoft YaHei';
+            font-size:40px;
+            line-height: 1.5;
+            }
+          
+          /*全部設定字體*/
+           body { font-family: verdana, Times New Roman, 新細明體, 微軟正黑體; }
+
+           div {
+                  background: blanchedalmond;
+                  width: 200px;
+                  height: 200px;
+                  overflow: hidden;
+                  border: 5px solid cornflowerblue;
+                  padding: 50px,10px,20px,40px;
+                  margin: 50px;
+               }
+           div {
+                  background: blanchedalmond;
+                  width: 200px;
+                  height: 200px;
+                  display:block;
+                  position: fixed;
+                  top: 400px;
+                  left: 400px;
+               }
+
+    </style>
+</head>
+<bodly>
+    <div class="123">132</div>
+    <div id="456">465</div>
+    <p class="j3206">123</p>
+    <p id="lastest">123</p>
+    <li><span>
+        <a href="" target="_blank">I SEE YOU</a>
+    </span></li>
+    <h1>I SEE YOU</h1>
+    <article>
+        <p>999999</p>
+    </article>
+    <p>888888888</p>
+    <div class="mary">
+        <p>Marry</p>
+    </div>
+    <div>11111111122222222211111111111</div>
+    <div>11111111122222222211111111111</div>
+
+
+</bodly>
+
+</html>
